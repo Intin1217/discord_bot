@@ -75,4 +75,4 @@ async def on_raw_reaction_add(payload):
                 await message.remove_reaction(emoji, member)
 
 # 봇 토큰으로 봇을 실행합니다.
-bot.run('MTEzMDY3Njk3MzYwNjI3NzE2NA.G7OeOl.dmfFQBKuNFd7x7W6G2MTWI466vybqDNDpAbGlM')
+bot.run('token')
